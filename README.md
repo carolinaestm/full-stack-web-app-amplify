@@ -1,8 +1,18 @@
-# React + Vite
+#Full-Stack Web Application with AWS Amplify
+##Overview
+In this project, I learned how to create a simple full-stack web application using AWS Amplify. I built and hosted a React application on AWS, used Amplify to add authentication, data, and a serverless function to capture the signed-up user's email and save it in the database. Then, I implemented a frontend for the app that integrates with the cloud resources.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##What I Accomplished
+In this project, I:
 
-Currently, two official plugins are available:
+Hosted: Built and deployed a React application on the AWS global content delivery network (CDN).
+Authenticated: Added authentication to the app to enable sign-in and sign-out functionality.
+Database: Integrated a real-time API, database, and a serverless function.
+Function: Implemented a lambda function that is triggered when a user signs up to the app.
+Application Architecture
+This application uses the following AWS services:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##AWS Amplify: To simplify the development and deployment process.
+GraphQL API: To manage real-time data and interactions.
+AWS Lambda: To handle serverless functions.
+Amazon DynamoDB: For database management.
